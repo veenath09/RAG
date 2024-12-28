@@ -9,13 +9,17 @@ from langchain_chroma import Chroma
 from pprint import pprint
 import chromadb
 import os 
+from dotenv import load_dotenv
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAwrkKFsBxYQuxjBsGICojkaSVHtvYkGpE"
+load_dotenv()
+
+
+os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 
 llm = GoogleGenerativeAI(
-    model = "gemini-1.5-flash",google_api_key="AIzaSyAwrkKFsBxYQuxjBsGICojkaSVHtvYkGpE")
+    model = "gemini-1.5-flash",google_api_key=os.environ["GOOGLE_API_KEY"])
 
 pdfloader = PyPDFDirectoryLoader("./pdf-docs")
 documents = pdfloader.load()
