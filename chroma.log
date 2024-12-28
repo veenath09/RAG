@@ -1,0 +1,615 @@
+[33mWARNING[0m:  [27-12-2024 04:19:19] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [27-12-2024 04:19:20] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [27-12-2024 04:19:20] Starting component System
+[36mDEBUG[0m:    [27-12-2024 04:19:20] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [27-12-2024 04:19:20] Starting component SqliteDB
+[36mDEBUG[0m:    [27-12-2024 04:19:20] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [27-12-2024 04:19:20] Starting component Posthog
+[36mDEBUG[0m:    [27-12-2024 04:19:20] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [27-12-2024 04:19:20] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [27-12-2024 04:19:20] Starting component LocalExecutor
+[36mDEBUG[0m:    [27-12-2024 04:19:20] Starting component SegmentAPI
+[32mINFO[0m:     [27-12-2024 04:19:20] Started server process [[36m30124[0m]
+[32mINFO[0m:     [27-12-2024 04:19:20] Waiting for application startup.
+[32mINFO[0m:     [27-12-2024 04:19:20] Application startup complete.
+[32mINFO[0m:     [27-12-2024 04:19:20] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [27-12-2024 04:19:55] 127.0.0.1:57572 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:19:56] 127.0.0.1:57573 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:19:56] 127.0.0.1:57573 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 04:19:56] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [27-12-2024 04:19:56] 127.0.0.1:57572 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 04:19:58] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [27-12-2024 04:19:58] 127.0.0.1:57572 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:19:58] 127.0.0.1:57572 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:21:10] 127.0.0.1:57601 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:21:10] 127.0.0.1:57602 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:21:10] 127.0.0.1:57602 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 04:21:11] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [27-12-2024 04:21:11] 127.0.0.1:57601 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:21:12] 127.0.0.1:57601 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:21:13] 127.0.0.1:57601 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:23:55] 127.0.0.1:57642 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:23:55] 127.0.0.1:57643 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:23:55] 127.0.0.1:57643 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 04:23:55] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [27-12-2024 04:23:55] 127.0.0.1:57642 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:23:57] 127.0.0.1:57642 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:23:58] 127.0.0.1:57642 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:24:37] Shutting down
+[32mINFO[0m:     [27-12-2024 04:24:38] Waiting for application shutdown.
+[36mDEBUG[0m:    [27-12-2024 04:24:38] Stopping component System
+[36mDEBUG[0m:    [27-12-2024 04:24:38] Stopping component SegmentAPI
+[36mDEBUG[0m:    [27-12-2024 04:24:38] Stopping component LocalExecutor
+[36mDEBUG[0m:    [27-12-2024 04:24:38] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [27-12-2024 04:24:38] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [27-12-2024 04:24:38] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [27-12-2024 04:24:38] Stopping component Posthog
+[36mDEBUG[0m:    [27-12-2024 04:24:38] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [27-12-2024 04:24:38] Stopping component SqliteDB
+[36mDEBUG[0m:    [27-12-2024 04:24:38] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [27-12-2024 04:24:38] Application shutdown complete.
+[32mINFO[0m:     [27-12-2024 04:24:38] Finished server process [[36m30124[0m]
+[33mWARNING[0m:  [27-12-2024 04:35:15] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [27-12-2024 04:35:16] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [27-12-2024 04:35:16] Starting component System
+[36mDEBUG[0m:    [27-12-2024 04:35:16] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [27-12-2024 04:35:16] Starting component SqliteDB
+[36mDEBUG[0m:    [27-12-2024 04:35:16] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [27-12-2024 04:35:16] Starting component Posthog
+[36mDEBUG[0m:    [27-12-2024 04:35:16] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [27-12-2024 04:35:16] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [27-12-2024 04:35:16] Starting component LocalExecutor
+[36mDEBUG[0m:    [27-12-2024 04:35:16] Starting component SegmentAPI
+[32mINFO[0m:     [27-12-2024 04:35:16] Started server process [[36m31036[0m]
+[32mINFO[0m:     [27-12-2024 04:35:16] Waiting for application startup.
+[32mINFO[0m:     [27-12-2024 04:35:16] Application startup complete.
+[32mINFO[0m:     [27-12-2024 04:35:16] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [27-12-2024 04:35:37] 127.0.0.1:57819 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:35:37] 127.0.0.1:57820 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:35:37] 127.0.0.1:57820 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 04:35:37] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [27-12-2024 04:35:37] 127.0.0.1:57819 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 04:35:39] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [27-12-2024 04:35:39] 127.0.0.1:57819 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:35:40] 127.0.0.1:57819 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:36:18] 127.0.0.1:57839 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:36:19] 127.0.0.1:57840 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:36:19] 127.0.0.1:57840 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 04:36:19] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [27-12-2024 04:36:19] 127.0.0.1:57839 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:36:21] 127.0.0.1:57839 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:36:21] 127.0.0.1:57839 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:38:13] 127.0.0.1:57874 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:38:13] 127.0.0.1:57875 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:38:13] 127.0.0.1:57875 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 04:38:14] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [27-12-2024 04:38:14] 127.0.0.1:57874 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:38:16] 127.0.0.1:57874 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:38:16] 127.0.0.1:57874 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:39:18] 127.0.0.1:57895 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:39:19] 127.0.0.1:57896 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:39:19] 127.0.0.1:57896 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 04:39:19] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [27-12-2024 04:39:19] 127.0.0.1:57895 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:39:21] 127.0.0.1:57895 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:39:21] 127.0.0.1:57895 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:40:55] 127.0.0.1:57923 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:40:55] 127.0.0.1:57924 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:40:55] 127.0.0.1:57924 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 04:40:55] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [27-12-2024 04:40:55] 127.0.0.1:57923 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:40:57] 127.0.0.1:57923 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 04:40:58] 127.0.0.1:57923 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[33mWARNING[0m:  [27-12-2024 20:20:44] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [27-12-2024 20:20:45] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [27-12-2024 20:20:45] Starting component System
+[36mDEBUG[0m:    [27-12-2024 20:20:45] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [27-12-2024 20:20:45] Starting component SqliteDB
+[36mDEBUG[0m:    [27-12-2024 20:20:45] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [27-12-2024 20:20:45] Starting component Posthog
+[36mDEBUG[0m:    [27-12-2024 20:20:45] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [27-12-2024 20:20:45] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [27-12-2024 20:20:45] Starting component LocalExecutor
+[36mDEBUG[0m:    [27-12-2024 20:20:45] Starting component SegmentAPI
+[32mINFO[0m:     [27-12-2024 20:20:45] Started server process [[36m11400[0m]
+[32mINFO[0m:     [27-12-2024 20:20:45] Waiting for application startup.
+[32mINFO[0m:     [27-12-2024 20:20:45] Application startup complete.
+[32mINFO[0m:     [27-12-2024 20:20:45] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [27-12-2024 20:31:03] 127.0.0.1:64783 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:31:03] 127.0.0.1:64784 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:31:03] 127.0.0.1:64784 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 20:31:03] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [27-12-2024 20:31:03] 127.0.0.1:64783 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 20:31:06] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [27-12-2024 20:31:06] 127.0.0.1:64783 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:31:06] 127.0.0.1:64783 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:32:18] 127.0.0.1:64811 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:32:18] 127.0.0.1:64812 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:32:18] 127.0.0.1:64812 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 20:32:18] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [27-12-2024 20:32:18] 127.0.0.1:64811 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:32:20] 127.0.0.1:64811 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:32:21] 127.0.0.1:64811 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:39:59] 127.0.0.1:64946 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:40:00] 127.0.0.1:64947 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:40:00] 127.0.0.1:64947 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 20:40:00] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [27-12-2024 20:40:00] 127.0.0.1:64946 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:40:02] 127.0.0.1:64946 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:40:58] 127.0.0.1:64968 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:40:58] 127.0.0.1:64969 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:40:58] 127.0.0.1:64969 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 20:40:58] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [27-12-2024 20:40:58] 127.0.0.1:64968 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:40:59] 127.0.0.1:64968 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:50:01] 127.0.0.1:65086 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:50:01] 127.0.0.1:65087 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:50:01] 127.0.0.1:65087 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 20:50:01] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [27-12-2024 20:50:01] 127.0.0.1:65086 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 20:50:03] 127.0.0.1:65086 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[33mWARNING[0m:  [27-12-2024 21:53:32] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [27-12-2024 21:53:32] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [27-12-2024 21:53:32] Starting component System
+[36mDEBUG[0m:    [27-12-2024 21:53:32] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [27-12-2024 21:53:32] Starting component SqliteDB
+[36mDEBUG[0m:    [27-12-2024 21:53:32] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [27-12-2024 21:53:32] Starting component Posthog
+[36mDEBUG[0m:    [27-12-2024 21:53:32] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [27-12-2024 21:53:32] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [27-12-2024 21:53:32] Starting component LocalExecutor
+[36mDEBUG[0m:    [27-12-2024 21:53:32] Starting component SegmentAPI
+[32mINFO[0m:     [27-12-2024 21:53:32] Started server process [[36m33572[0m]
+[32mINFO[0m:     [27-12-2024 21:53:32] Waiting for application startup.
+[32mINFO[0m:     [27-12-2024 21:53:32] Application startup complete.
+[32mINFO[0m:     [27-12-2024 21:53:32] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [27-12-2024 21:55:50] 127.0.0.1:50009 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 21:55:50] 127.0.0.1:50010 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 21:55:50] 127.0.0.1:50010 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 21:57:18] 127.0.0.1:50038 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 21:57:18] 127.0.0.1:50039 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 21:57:18] 127.0.0.1:50039 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 21:58:15] 127.0.0.1:50056 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 21:58:15] 127.0.0.1:50057 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 21:58:15] 127.0.0.1:50057 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 21:58:15] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [27-12-2024 21:58:15] 127.0.0.1:50056 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 21:59:24] 127.0.0.1:50078 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 21:59:24] 127.0.0.1:50079 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 21:59:24] 127.0.0.1:50079 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 21:59:24] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [27-12-2024 21:59:24] 127.0.0.1:50078 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 21:59:27] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [27-12-2024 21:59:27] 127.0.0.1:50078 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 22:00:49] 127.0.0.1:50109 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 22:00:49] 127.0.0.1:50110 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 22:00:49] 127.0.0.1:50110 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [27-12-2024 22:00:49] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [27-12-2024 22:00:49] 127.0.0.1:50109 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [27-12-2024 22:00:52] 127.0.0.1:50109 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 00:44:43] 127.0.0.1:59991 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 00:44:44] 127.0.0.1:59992 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 00:44:44] 127.0.0.1:59992 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 00:44:44] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 00:44:44] 127.0.0.1:59991 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 00:49:48] 127.0.0.1:60075 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 00:49:48] 127.0.0.1:60076 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 00:49:48] 127.0.0.1:60076 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 00:49:48] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 00:49:48] 127.0.0.1:60075 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 00:53:08] 127.0.0.1:60121 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 00:53:08] 127.0.0.1:60122 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 00:53:08] 127.0.0.1:60122 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 00:53:08] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 00:53:08] 127.0.0.1:60121 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 00:53:10] 127.0.0.1:60121 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 00:54:24] 127.0.0.1:60148 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 00:54:25] 127.0.0.1:60149 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 00:54:25] 127.0.0.1:60149 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 00:54:25] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 00:54:25] 127.0.0.1:60148 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 00:54:26] 127.0.0.1:60148 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 00:57:06] 127.0.0.1:60200 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 00:57:07] 127.0.0.1:60201 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 00:57:07] 127.0.0.1:60201 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 00:57:07] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 00:57:07] 127.0.0.1:60200 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 00:57:09] 127.0.0.1:60200 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:02:07] 127.0.0.1:60272 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:02:07] 127.0.0.1:60273 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:02:07] 127.0.0.1:60273 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 01:02:07] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 01:02:07] 127.0.0.1:60272 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:02:08] 127.0.0.1:60272 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:02:45] 127.0.0.1:60294 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:02:46] 127.0.0.1:60295 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:02:46] 127.0.0.1:60295 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 01:02:46] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 01:02:46] 127.0.0.1:60294 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:02:47] 127.0.0.1:60294 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:10:28] 127.0.0.1:60408 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:10:29] 127.0.0.1:60409 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:10:29] 127.0.0.1:60409 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 01:10:29] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 01:10:29] 127.0.0.1:60408 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:10:31] 127.0.0.1:60408 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:21:37] 127.0.0.1:60590 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:21:37] 127.0.0.1:60591 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:21:37] 127.0.0.1:60591 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 01:21:37] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 01:21:37] 127.0.0.1:60590 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:21:40] 127.0.0.1:60590 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:22:23] 127.0.0.1:60611 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:22:24] 127.0.0.1:60612 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:22:24] 127.0.0.1:60612 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 01:22:24] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 01:22:24] 127.0.0.1:60611 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:22:26] 127.0.0.1:60611 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:23:58] 127.0.0.1:60646 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:23:58] 127.0.0.1:60647 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:23:58] 127.0.0.1:60647 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 01:23:58] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 01:23:58] 127.0.0.1:60646 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:24:00] 127.0.0.1:60646 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 01:24:04] 127.0.0.1:60646 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:29:58] 127.0.0.1:53406 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:29:58] 127.0.0.1:53408 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:29:58] 127.0.0.1:53408 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 02:29:59] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 02:29:59] 127.0.0.1:53406 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:30:01] 127.0.0.1:53406 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:30:06] 127.0.0.1:53406 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:31:39] 127.0.0.1:58631 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:31:39] 127.0.0.1:58632 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:31:39] 127.0.0.1:58632 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 02:31:39] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 02:31:39] 127.0.0.1:58631 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:31:42] 127.0.0.1:58631 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:31:47] 127.0.0.1:58631 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:42:10] 127.0.0.1:58809 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:42:10] 127.0.0.1:58810 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:42:10] 127.0.0.1:58810 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 02:42:11] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 02:42:11] 127.0.0.1:58809 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:42:44] 127.0.0.1:58832 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:42:44] 127.0.0.1:58834 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:42:44] 127.0.0.1:58834 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 02:42:46] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 02:42:46] 127.0.0.1:58832 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:42:58] 127.0.0.1:58840 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:42:58] 127.0.0.1:58841 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:42:58] 127.0.0.1:58841 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 02:42:59] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 02:42:59] 127.0.0.1:58840 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:43:01] 127.0.0.1:58840 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:43:19] 127.0.0.1:58849 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:43:19] 127.0.0.1:58850 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:43:19] 127.0.0.1:58850 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 02:43:19] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 02:43:19] 127.0.0.1:58849 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:43:21] 127.0.0.1:58849 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:43:48] 127.0.0.1:58863 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:43:49] 127.0.0.1:58864 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:43:49] 127.0.0.1:58864 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 02:43:49] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 02:43:49] 127.0.0.1:58863 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:43:51] 127.0.0.1:58863 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:44:35] 127.0.0.1:58878 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:44:36] 127.0.0.1:58880 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:44:36] 127.0.0.1:58880 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 02:44:36] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 02:44:36] 127.0.0.1:58878 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:44:37] 127.0.0.1:58878 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:45:06] 127.0.0.1:58888 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:45:06] 127.0.0.1:58889 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:45:06] 127.0.0.1:58889 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 02:45:06] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 02:45:06] 127.0.0.1:58888 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:45:09] 127.0.0.1:58888 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:45:37] 127.0.0.1:58901 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:45:38] 127.0.0.1:58902 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:45:38] 127.0.0.1:58902 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 02:45:38] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 02:45:38] 127.0.0.1:58901 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:45:40] 127.0.0.1:58901 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:46:12] 127.0.0.1:58915 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:46:12] 127.0.0.1:58916 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:46:12] 127.0.0.1:58916 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 02:46:12] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 02:46:12] 127.0.0.1:58915 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:46:14] 127.0.0.1:58915 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:50:08] 127.0.0.1:59000 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:50:08] 127.0.0.1:59001 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:50:08] 127.0.0.1:59001 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 02:50:08] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 02:50:08] 127.0.0.1:59000 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:50:11] 127.0.0.1:59000 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:50:41] 127.0.0.1:59014 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:50:42] 127.0.0.1:59015 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:50:42] 127.0.0.1:59015 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 02:50:42] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 02:50:42] 127.0.0.1:59014 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:50:44] 127.0.0.1:59014 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:53:57] 127.0.0.1:59097 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:53:57] 127.0.0.1:59099 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:53:57] 127.0.0.1:59099 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 02:53:58] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 02:53:58] 127.0.0.1:59097 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:54:12] 127.0.0.1:59107 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:54:13] 127.0.0.1:59108 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:54:13] 127.0.0.1:59108 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 02:54:13] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 02:54:13] 127.0.0.1:59107 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:54:15] 127.0.0.1:59107 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:58:10] 127.0.0.1:59187 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:58:11] 127.0.0.1:59188 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:58:11] 127.0.0.1:59188 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 02:58:12] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 02:58:12] 127.0.0.1:59187 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:58:24] 127.0.0.1:59195 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:58:24] 127.0.0.1:59196 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:58:24] 127.0.0.1:59196 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 02:58:24] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 02:58:24] 127.0.0.1:59195 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:58:27] 127.0.0.1:59195 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:59:09] 127.0.0.1:59245 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:59:10] 127.0.0.1:59246 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:59:10] 127.0.0.1:59246 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 02:59:11] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 02:59:11] 127.0.0.1:59245 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:59:22] 127.0.0.1:59251 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:59:22] 127.0.0.1:59252 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:59:22] 127.0.0.1:59252 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 02:59:22] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 02:59:22] 127.0.0.1:59251 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 02:59:24] 127.0.0.1:59251 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:08:43] 127.0.0.1:59478 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:08:44] 127.0.0.1:59480 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:08:44] 127.0.0.1:59480 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 03:08:45] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 03:08:45] 127.0.0.1:59478 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:08:55] 127.0.0.1:59486 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:08:56] 127.0.0.1:59487 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:08:56] 127.0.0.1:59487 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 03:08:56] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 03:08:56] 127.0.0.1:59486 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:11:37] 127.0.0.1:59537 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:11:37] 127.0.0.1:59538 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:11:37] 127.0.0.1:59538 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 03:11:38] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 03:11:38] 127.0.0.1:59537 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:11:53] 127.0.0.1:59546 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:11:53] 127.0.0.1:59547 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:11:53] 127.0.0.1:59547 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 03:11:53] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 03:11:53] 127.0.0.1:59546 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:11:56] 127.0.0.1:59546 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:12:13] 127.0.0.1:59557 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:12:14] 127.0.0.1:59558 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:12:14] 127.0.0.1:59558 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 03:12:14] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 03:12:14] 127.0.0.1:59557 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:12:16] 127.0.0.1:59557 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:13:07] 127.0.0.1:59577 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:13:08] 127.0.0.1:59578 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:13:08] 127.0.0.1:59578 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 03:13:08] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 03:13:08] 127.0.0.1:59577 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:13:10] 127.0.0.1:59577 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 03:15:10] Shutting down
+[32mINFO[0m:     [28-12-2024 03:15:10] Waiting for application shutdown.
+[36mDEBUG[0m:    [28-12-2024 03:15:10] Stopping component System
+[36mDEBUG[0m:    [28-12-2024 03:15:10] Stopping component SegmentAPI
+[36mDEBUG[0m:    [28-12-2024 03:15:10] Stopping component LocalExecutor
+[36mDEBUG[0m:    [28-12-2024 03:15:10] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [28-12-2024 03:15:10] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [28-12-2024 03:15:10] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [28-12-2024 03:15:10] Stopping component Posthog
+[36mDEBUG[0m:    [28-12-2024 03:15:10] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [28-12-2024 03:15:10] Stopping component SqliteDB
+[36mDEBUG[0m:    [28-12-2024 03:15:10] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [28-12-2024 03:15:10] Application shutdown complete.
+[32mINFO[0m:     [28-12-2024 03:15:10] Finished server process [[36m33572[0m]
+[33mWARNING[0m:  [28-12-2024 13:41:07] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [28-12-2024 13:41:08] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [28-12-2024 13:41:08] Starting component System
+[36mDEBUG[0m:    [28-12-2024 13:41:08] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [28-12-2024 13:41:08] Starting component SqliteDB
+[36mDEBUG[0m:    [28-12-2024 13:41:08] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [28-12-2024 13:41:08] Starting component Posthog
+[36mDEBUG[0m:    [28-12-2024 13:41:08] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [28-12-2024 13:41:08] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [28-12-2024 13:41:08] Starting component LocalExecutor
+[36mDEBUG[0m:    [28-12-2024 13:41:08] Starting component SegmentAPI
+[32mINFO[0m:     [28-12-2024 13:41:08] Started server process [[36m22016[0m]
+[32mINFO[0m:     [28-12-2024 13:41:08] Waiting for application startup.
+[32mINFO[0m:     [28-12-2024 13:41:08] Application startup complete.
+[32mINFO[0m:     [28-12-2024 13:41:08] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [28-12-2024 13:43:22] 127.0.0.1:52931 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 13:43:22] 127.0.0.1:52933 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 13:43:22] 127.0.0.1:52933 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 13:43:24] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 13:43:24] 127.0.0.1:52931 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 13:44:21] 127.0.0.1:52951 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 13:44:22] 127.0.0.1:52952 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 13:44:22] 127.0.0.1:52952 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 13:44:22] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 13:44:22] 127.0.0.1:52951 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 13:44:24] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [28-12-2024 13:44:25] 127.0.0.1:52951 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 13:45:04] Shutting down
+[32mINFO[0m:     [28-12-2024 13:45:04] Waiting for application shutdown.
+[36mDEBUG[0m:    [28-12-2024 13:45:04] Stopping component System
+[36mDEBUG[0m:    [28-12-2024 13:45:04] Stopping component SegmentAPI
+[36mDEBUG[0m:    [28-12-2024 13:45:04] Stopping component LocalExecutor
+[36mDEBUG[0m:    [28-12-2024 13:45:04] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [28-12-2024 13:45:04] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [28-12-2024 13:45:04] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [28-12-2024 13:45:04] Stopping component Posthog
+[36mDEBUG[0m:    [28-12-2024 13:45:04] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [28-12-2024 13:45:04] Stopping component SqliteDB
+[36mDEBUG[0m:    [28-12-2024 13:45:04] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [28-12-2024 13:45:04] Application shutdown complete.
+[32mINFO[0m:     [28-12-2024 13:45:04] Finished server process [[36m22016[0m]
+[33mWARNING[0m:  [28-12-2024 13:55:01] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [28-12-2024 13:55:02] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [28-12-2024 13:55:02] Starting component System
+[36mDEBUG[0m:    [28-12-2024 13:55:02] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [28-12-2024 13:55:02] Starting component SqliteDB
+[36mDEBUG[0m:    [28-12-2024 13:55:02] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [28-12-2024 13:55:02] Starting component Posthog
+[36mDEBUG[0m:    [28-12-2024 13:55:02] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [28-12-2024 13:55:02] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [28-12-2024 13:55:02] Starting component LocalExecutor
+[36mDEBUG[0m:    [28-12-2024 13:55:02] Starting component SegmentAPI
+[32mINFO[0m:     [28-12-2024 13:55:02] Started server process [[36m32348[0m]
+[32mINFO[0m:     [28-12-2024 13:55:02] Waiting for application startup.
+[32mINFO[0m:     [28-12-2024 13:55:02] Application startup complete.
+[32mINFO[0m:     [28-12-2024 13:55:02] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [28-12-2024 13:55:34] 127.0.0.1:53220 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 13:55:35] 127.0.0.1:53221 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 13:55:35] 127.0.0.1:53221 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 13:55:36] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 13:55:36] 127.0.0.1:53220 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 13:55:51] 127.0.0.1:53224 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 13:55:52] 127.0.0.1:53225 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 13:55:52] 127.0.0.1:53225 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 13:55:52] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 13:55:52] 127.0.0.1:53224 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 13:55:55] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [28-12-2024 13:55:55] 127.0.0.1:53224 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 13:56:18] Shutting down
+[32mINFO[0m:     [28-12-2024 13:56:18] Waiting for application shutdown.
+[36mDEBUG[0m:    [28-12-2024 13:56:18] Stopping component System
+[36mDEBUG[0m:    [28-12-2024 13:56:18] Stopping component SegmentAPI
+[36mDEBUG[0m:    [28-12-2024 13:56:18] Stopping component LocalExecutor
+[36mDEBUG[0m:    [28-12-2024 13:56:18] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [28-12-2024 13:56:18] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [28-12-2024 13:56:18] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [28-12-2024 13:56:18] Stopping component Posthog
+[36mDEBUG[0m:    [28-12-2024 13:56:18] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [28-12-2024 13:56:18] Stopping component SqliteDB
+[36mDEBUG[0m:    [28-12-2024 13:56:18] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [28-12-2024 13:56:18] Application shutdown complete.
+[32mINFO[0m:     [28-12-2024 13:56:18] Finished server process [[36m32348[0m]
+[33mWARNING[0m:  [28-12-2024 17:06:05] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [28-12-2024 17:06:06] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [28-12-2024 17:06:06] Starting component System
+[36mDEBUG[0m:    [28-12-2024 17:06:06] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [28-12-2024 17:06:06] Starting component SqliteDB
+[36mDEBUG[0m:    [28-12-2024 17:06:06] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [28-12-2024 17:06:06] Starting component Posthog
+[36mDEBUG[0m:    [28-12-2024 17:06:06] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [28-12-2024 17:06:06] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [28-12-2024 17:06:06] Starting component LocalExecutor
+[36mDEBUG[0m:    [28-12-2024 17:06:06] Starting component SegmentAPI
+[32mINFO[0m:     [28-12-2024 17:06:06] Started server process [[36m18856[0m]
+[32mINFO[0m:     [28-12-2024 17:06:06] Waiting for application startup.
+[32mINFO[0m:     [28-12-2024 17:06:06] Application startup complete.
+[32mINFO[0m:     [28-12-2024 17:06:06] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [28-12-2024 17:06:47] 127.0.0.1:55453 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 17:06:47] 127.0.0.1:55456 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 17:06:47] 127.0.0.1:55456 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 17:06:49] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 17:06:49] 127.0.0.1:55453 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 17:07:14] 127.0.0.1:55462 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 17:07:14] 127.0.0.1:55463 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 17:07:14] 127.0.0.1:55463 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 17:07:14] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 17:07:14] 127.0.0.1:55462 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 17:07:17] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [28-12-2024 17:07:17] 127.0.0.1:55462 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 17:07:36] 127.0.0.1:55468 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 17:07:37] 127.0.0.1:55469 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 17:07:37] 127.0.0.1:55469 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 17:07:37] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 17:07:37] 127.0.0.1:55468 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 17:07:38] 127.0.0.1:55468 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 17:10:13] 127.0.0.1:55534 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 17:10:14] 127.0.0.1:55535 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 17:10:14] 127.0.0.1:55535 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 17:10:14] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 17:10:14] 127.0.0.1:55534 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 17:10:16] 127.0.0.1:55534 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[33mWARNING[0m:  [28-12-2024 21:38:19] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [28-12-2024 21:38:20] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [28-12-2024 21:38:20] Starting component System
+[36mDEBUG[0m:    [28-12-2024 21:38:20] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [28-12-2024 21:38:20] Starting component SqliteDB
+[36mDEBUG[0m:    [28-12-2024 21:38:20] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [28-12-2024 21:38:20] Starting component Posthog
+[36mDEBUG[0m:    [28-12-2024 21:38:20] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [28-12-2024 21:38:20] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [28-12-2024 21:38:20] Starting component LocalExecutor
+[36mDEBUG[0m:    [28-12-2024 21:38:20] Starting component SegmentAPI
+[32mINFO[0m:     [28-12-2024 21:38:20] Started server process [[36m14740[0m]
+[32mINFO[0m:     [28-12-2024 21:38:20] Waiting for application startup.
+[32mINFO[0m:     [28-12-2024 21:38:20] Application startup complete.
+[32mINFO[0m:     [28-12-2024 21:38:20] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [28-12-2024 21:42:20] 127.0.0.1:64345 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 21:42:21] 127.0.0.1:64346 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 21:42:21] 127.0.0.1:64346 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 21:42:23] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 21:42:23] 127.0.0.1:64345 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 21:42:31] 127.0.0.1:64351 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 21:42:32] 127.0.0.1:64352 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 21:42:32] 127.0.0.1:64352 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 21:42:32] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 21:42:32] 127.0.0.1:64351 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 21:42:35] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [28-12-2024 21:42:35] 127.0.0.1:64351 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 21:42:48] 127.0.0.1:64366 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 21:42:49] 127.0.0.1:64368 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 21:42:49] 127.0.0.1:64368 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 21:42:49] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 21:42:49] 127.0.0.1:64366 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 21:42:51] 127.0.0.1:64366 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 21:43:45] 127.0.0.1:64381 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 21:43:46] 127.0.0.1:64382 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 21:43:46] 127.0.0.1:64382 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 21:43:46] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 21:43:46] 127.0.0.1:64381 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 21:43:48] 127.0.0.1:64381 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:05:46] 127.0.0.1:65119 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:05:46] 127.0.0.1:65120 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:05:46] 127.0.0.1:65120 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 22:05:47] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 22:05:47] 127.0.0.1:65119 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:06:08] 127.0.0.1:65125 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:06:09] 127.0.0.1:65126 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:06:09] 127.0.0.1:65126 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 22:06:09] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 22:06:09] 127.0.0.1:65125 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:06:11] 127.0.0.1:65125 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:07:15] 127.0.0.1:65156 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:07:15] 127.0.0.1:65157 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:07:15] 127.0.0.1:65157 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 22:07:15] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 22:07:15] 127.0.0.1:65156 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:07:17] 127.0.0.1:65156 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:07:47] 127.0.0.1:65168 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:07:48] 127.0.0.1:65169 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:07:48] 127.0.0.1:65169 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 22:07:48] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 22:07:48] 127.0.0.1:65168 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:07:50] 127.0.0.1:65168 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:08:52] 127.0.0.1:65193 - "GET /api/v2/auth/identity HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:08:53] 127.0.0.1:65194 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:08:53] 127.0.0.1:65194 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-12-2024 22:08:53] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-12-2024 22:08:53] 127.0.0.1:65193 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:08:55] 127.0.0.1:65193 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/abfb2c63-b1f9-405f-b405-2314506172dd/query HTTP/1.1" 200
+[32mINFO[0m:     [28-12-2024 22:17:54] Shutting down
+[32mINFO[0m:     [28-12-2024 22:17:54] Waiting for application shutdown.
+[36mDEBUG[0m:    [28-12-2024 22:17:54] Stopping component System
+[36mDEBUG[0m:    [28-12-2024 22:17:54] Stopping component SegmentAPI
+[36mDEBUG[0m:    [28-12-2024 22:17:54] Stopping component LocalExecutor
+[36mDEBUG[0m:    [28-12-2024 22:17:54] Stopping component PersistentLocalHnswSegment
+[36mDEBUG[0m:    [28-12-2024 22:17:54] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [28-12-2024 22:17:54] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [28-12-2024 22:17:54] Stopping component Posthog
+[36mDEBUG[0m:    [28-12-2024 22:17:54] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [28-12-2024 22:17:54] Stopping component SqliteDB
+[36mDEBUG[0m:    [28-12-2024 22:17:54] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [28-12-2024 22:17:54] Application shutdown complete.
+[32mINFO[0m:     [28-12-2024 22:17:54] Finished server process [[36m14740[0m]
